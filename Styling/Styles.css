@@ -1,0 +1,76 @@
+.logo img{
+            width:164px;
+        }
+        nav{
+            display:flex;
+            justify-content: space-around;
+        }
+        .right ul{
+            display: flex;
+            gap:34px;
+        }
+        .right ul li{
+            list-style:none;
+        }
+        .first{
+            display: flex;
+            flex-direction: column;
+            justify-content:center;
+            align-items:center;
+            gap:40px;
+            margin:40px;
+        }
+        .first span{
+            font-size:40px;
+            font-family: sans-serif;
+        }
+        span img{
+            width: 40px;
+            margin:0 1px;
+        }
+        .first p{
+            font-size: 23px;
+            width:44vw;
+            text-align: center;
+        }
+        .download button{
+            background: #00b6;
+            padding:13px 10px;
+            color:white;
+            border:none;
+            border-radius: 7px;
+        }
+        .second{
+            max-width: 60vw;
+            margin:auto;
+        }
+        .green {
+            background:mediumseagreen;
+            border:none;
+            border-radius:7px;
+            padding:7px;
+            margin:10px;
+        }
+        .blue{
+            background:cornflowerblue;
+            border:none;
+            border-radius:7px;
+            padding:7px;
+            margin:10px;
+        }
+        .item{
+            background-color:#f9f9f9;
+            border-radius: 10px;
+            padding:20px;
+        }
+        .item-lang{
+            font-weight: 100;
+            text-align: center;
+            padding-bottom: 30px;
+            font-size: 20px;
+        }
+        .grid{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap:12px;
+        }
