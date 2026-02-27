@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Animations</title>
+    <style>
+        .container{
+            background-color: antiquewhite;
+            height: 80vh;
+            width:30vw;
+        }
+        .box{
+            height: 34vh;
+            width:30vw;
+            /* animation-name: anyname;
+            animation-duration: 0.5s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+            animation-delay: 1s;
+            animation-direction: alternate-reverse; */
+
+            animation:anyname 2s ease-in-out 2s infinite,
+                    secondanimation 1s ease-in-out 1s infinite;
+        }
+        @keyframes anyname{
+            from{
+                background-color: chocolate;
+            }
+            to{
+                background-color: blue;
+                transform:translateX(1000px);
+            }
+        }
+
+        @keyframes secondanimation{
+            0%{
+                transform: rotate(100deg);
+            }
+            20%{
+                transform: rotate(150deg);
+            }
+            50%{
+                transform: rotate(200deg);
+            }
+            70%{
+                transform: rotate(250deg);
+            }
+            100%{
+                transform: rotate(300deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+
+        </div>
+    </div>
+</body>
+</html>
