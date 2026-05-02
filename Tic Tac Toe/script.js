@@ -49,5 +49,5 @@ const checkWinner=()=>{
 
 const showWinner=(winner)=>{
     msg.innerText=`Winner is:${winner}`;
-    msgContainer.classList.remove("hide");
+    msgContainer .classList.remove("hide");
 }
